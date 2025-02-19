@@ -231,7 +231,7 @@ class Beachball(object):
         row = round((max_y - y) / (max_y - min_y) * (height - 1))
         return row, col
 
-    def plot_beachball_ascii(self, width=50, height=16):
+    def plot_beachball_ascii(self, width=40, height=15):
         [
             pl1_wulff_projection,
             pl2_wulff_projection,
